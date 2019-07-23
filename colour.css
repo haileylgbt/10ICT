@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+  background-color: #23272A;
+}
+
+h1 {
+  font-family: Ubuntu;
+  text-align: center;
+  font-size: 50px;
+}
+
+.title {
+  animation: rAnimate 10s linear infinite alternate;
+}
+
+@keyframes rAnimate {
+		from {
+		  color: #00ffbf;
+		}
+		14.2% {
+		  color: #0000FF;
+		}
+		28.5% {
+		  color: #4B0082;
+		}
+		42.8% {
+		  color: #8B00FF;
+		}
+		57.14% {
+		  color: #FF0000;
+		}
+		  71.4% {
+		  color: #FF7F00;
+		}
+		  85.7% {
+		  color: #FFFF00;
+		}
+		  100% {
+		  color: #00FF00;
+		}
+}
+
+.colours {
+  font-family: Inconsolata;
+  color: #ffffff;
+}
