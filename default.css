@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+  background-color: #23272A;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: Ubuntu;
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: Ubuntu;
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  font-family: Inconsolata;
+  margin-left: 200px;
+  margin-right: 200px;
+}
